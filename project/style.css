@@ -1,0 +1,201 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px 60px 0px;
+    border-bottom: solid 1px rgb(213, 213, 213);
+}
+
+nav img{
+   height: 50px;
+}
+
+nav ul{
+    display: flex;
+   
+}
+
+nav section{
+    display: flex;
+}
+
+nav ul li{
+    padding-left: 50px;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div{
+   margin-top: 17px;
+}
+
+nav div i{
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav div i sup{
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+   
+}
+
+
+.second-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px auto auto auto;
+}
+
+.second-sec section{
+  width: 60%;
+}
+.second-sec section img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.second-sec div{
+    width: 35%;
+}
+
+.second-sec div img{
+   width: 100%;
+   height: 181px;
+   object-fit: cover;
+}
+
+.third-sec{
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-sec div i{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 219, 219);
+    width: 16%;
+    margin: auto;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+
+.third-sec div h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 17px;
+   padding-top: 10px;
+}
+
+.third-sec div p{
+    text-align: center;
+    color: rgb(194, 194, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.third-sec div{
+    border-right: solid 1px rgb(216, 214, 214);
+    padding-right: 15px;
+}
+
+.bestseller ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    list-style: none;
+    text-transform: uppercase;
+    color: rgb(116, 114, 114);
+    font-weight: bold;
+    letter-spacing: 4px;
+    
+}
+
+.bestseller{
+    width: 90%;
+    margin: auto;
+    border-bottom: solid 1px rgb(216, 214, 214);
+    padding-bottom: 25px;
+    
+}
+
+.bestseller-sec{
+    display: flex;
+    width:90%;
+    margin: 50px auto;
+    justify-content: space-between;
+
+}
+
+.bestseller-sec  div{
+    width: 22%;
+    
+
+}
+
+.bestseller-sec div img{
+    height: 300px;
+    width: 100%;
+ 
+}
+
+
+.bags{
+    background-image: url('https://img.freepik.com/free-photo/brick-wall-painted-white_1194-7526.jpg?t=st=1726641348~exp=1726644948~hmac=d8b6c27364af74c476a11b1c4e8eb5bab9f2be5ab3d959ff77c4ffc038fd1ae2&w=900');
+    height: 350px;
+    width: 100%;
+    display: flex;
+   
+}
+
+.bags div img{
+    height: 300px;
+    margin-left: 15%;
+   
+}
+
+.bags div{
+    margin-left: 5%;
+    margin-top: 30px;
+   
+}
+
+.bags div h4{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center;
+}
+
+.bags div h5{
+    font-size: 50px;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bags div button{
+    display: flex;
+    margin: auto;
+    background-color: #ffff;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
